@@ -1,0 +1,73 @@
+Q-Explain the key differences between JavaScript and HTML. Provide examples of situations where you would use each.
+
+JavaScript and HTML are both essential technologies for web development, but they serve different purposes and are used in different ways.
+
+HTML (Hypertext Markup Language):
+
+    Purpose:
+    HTML is a markup language used to structure content on the web.
+
+    It defines the structure and layout of a web page using elements and tags.
+
+    Example:
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Title of my Web Page</title>
+    </head>
+    <body>
+        <h1>Heading 1</h1>
+        <p>This is a paragraph.</p>
+    </body>
+    </html>
+
+    Usage:
+    HTML is used to create the basic structure of a web page.
+
+    It defines headings, paragraphs, lists, images, links, and other elements.
+
+    Responsibility:
+    HTML is responsible for the static, structural content of a web page.
+
+
+JavaScript:
+
+    Purpose:
+    JavaScript is a scripting language used to make web pages interactive and dynamic.
+    
+    It enables manipulation of the Document Object Model (DOM) and handles events.
+
+    Example:
+    JavaScript code to change the content of an HTML element:
+    document.getElementById("demo").innerHTML = "Hello, JavaScript!";
+
+    Usage:
+    JavaScript is used for client-side scripting to create dynamic and interactive web pages.
+    
+    It can be used for form validation, DOM manipulation, handling events, and making asynchronous requests (AJAX).
+
+    Responsibility:
+    JavaScript is responsible for adding interactivity, handling user input, and dynamically updating the content of a web page.
+
+Situations Where HTML is Used:
+    Defining the structure and layout of a web page.
+    
+    Creating headings, paragraphs, lists, tables, and other elements.
+    
+    Embedding images, videos, and other media.
+    
+    Establishing links to navigate between pages.
+    
+    Providing metadata through elements like <head> for SEO and other purposes.
+
+Situations Where JavaScript is Used:
+    Validating user input in forms.
+    
+    Creating interactive elements like sliders, carousels, and accordions.
+
+    Handling events such as button clicks, mouse movements, and keyboard input.
+
+    Making asynchronous requests to fetch data from a server without reloading the entire page.
+    
+    Modifying the DOM dynamically to update content without requiring a page refresh.
+

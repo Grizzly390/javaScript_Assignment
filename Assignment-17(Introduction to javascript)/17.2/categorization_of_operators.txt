@@ -1,0 +1,68 @@
+Q- Describe the categorization of operators in JavaScript based on their functionality. Provide examples for each category.
+
+Operators in JavaScript can be categorized based on their functionality into several groups. 
+
+1. Arithmetic Operators:
+    Perform arithmetic operations on numeric values.
+    Examples: + (addition), - (subtraction), * (multiplication), / (division), % (modulo)
+    
+    let a = 10;
+    let b = 3;
+
+    console.log(a + b); // 13
+    console.log(a - b); // 7
+    console.log(a * b); // 30
+    console.log(a / b); // 3.333...
+    console.log(a % b); // 1
+
+2. Assignment Operators:
+    Assign values to variables.
+    Examples: = (assignment), += (addition assignment), -=, *=, /=, %=.
+
+    let x = 5;
+    x += 3; // equivalent to x = x + 3; // x is now 8
+
+3. Comparison Operators:
+    Compare values and return Boolean results.
+    Examples: == (equal), === (strict equal), != (not equal), !== (strict not equal), < (less than), > (greater than), <= (less than or equal), >= (greater than or equal).
+
+    let num1 = 10;
+    let num2 = 5;
+
+    console.log(num1 > num2); // true
+    console.log(num1 === num2); // false
+
+4. Logical Operators:
+
+    Perform logical operations on Boolean values.
+    Examples: && (logical AND), || (logical OR), ! (logical NOT).
+
+    let isSunny = true;
+    let isWarm = true;
+
+    if (isSunny && isWarm) {
+    console.log("It's a sunny and warm day!");
+    }
+
+5. Unary Operators:
+
+    Act on a single operand.
+    Examples: - (negation), + (unary plus), ++ (increment), -- (decrement).
+
+    let number = 5;
+    console.log(-number); // -5
+
+6. String Operators:
+
+    Concatenate strings.
+    Example: + (string concatenation).
+
+    let firstName = "Himanshu";
+    let lastName = "Kumar";
+
+    let fullName = firstName + " " + lastName; // "Himanshu Kumar"
+
+
+
+
+

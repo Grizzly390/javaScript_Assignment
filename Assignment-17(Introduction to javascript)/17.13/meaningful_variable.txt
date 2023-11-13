@@ -1,0 +1,35 @@
+Q- Explain the importance of choosing meaningful and descriptive variable names in JavaScript.Provide an example where using a clear identifier improves code readability.
+
+Choosing meaningful and descriptive variable names is crucial in JavaScript because it significantly improves code readability and maintainability. When code is written with clear and expressive variable names, it becomes easier for us and other developers to understand the purpose and functionality of the code. 
+
+Here's why meaningful variable names are important:
+1. Readability:
+    Clear variable names make the code more readable. When someone reads our code, they should be able to understand the purpose of each variable without having to decipher cryptic names.
+
+2. Maintainability:
+    Code is read far more often than it is written. Meaningful variable names help maintain the code over time. When we or someone else revisits the code, descriptive names make it easier to understand and modify.
+
+3. Reduced Cognitive Load:
+    Meaningful variable names reduce the cognitive load on developers. They don't have to remember arbitrary names or spend extra time figuring out the purpose of a variable.
+
+4. Communication:
+    Code is a form of communication between developers. Clear and descriptive variable names act as a form of self-documentation, allowing developers to communicate intent without the need for extensive comments.
+
+Example to illustrate the importance of meaningful variable names:
+    1.  Poor variable names
+        let x = 10;
+        let y = 5;
+
+        let z = x + y;
+
+     What does z represent? What is the purpose of x and y?
+
+    2. Improved variable names
+        let baseSalary = 1000;
+        let bonus = 500;
+
+        let totalSalary = baseSalary + bonus;
+    
+        It's clear that totalSalary is the sum of baseSalary and bonus.
+
+Clarity makes the code more maintainable and easier to work with, especially when the codebase becomes more extensive or when other developers are involved.
