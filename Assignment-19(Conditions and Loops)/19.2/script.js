@@ -10,7 +10,7 @@ if(marks>90){
     console.log("You get A grade.")
 }else if(marks>70 && marks<=90){
     console.log("You get B Grade.")
-}else if(marks>50 && marks<=70){
+}else if(marks>=50 && marks<=70){
     console.log("You get C Grade.")
 }else{
     console.log("You get F Grade.")
